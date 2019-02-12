@@ -1,12 +1,10 @@
 <template>
   <div class="hero-head">
-      <!-- <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> -->
       <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="" href="https://bulma.io">
+    <!-- <a class="" href="https://bulma.io">
       <img src="../../assets/phoenix.png" width="130" height="95">
-    </a>
+    </a> -->
 
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
@@ -17,23 +15,40 @@
 
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
-        <router-link to="/" class="navbar-item">
+      <div class="navbar-item">
+        <router-link to="/" class="has-text-white has-text-weight-bold">
         Home
         </router-link>
-          <router-link to="/about" class="navbar-item">
+        </div>
+        <div class="navbar-item">
+          <router-link to="/about" class="has-text-white has-text-weight-bold">
           About
           </router-link> 
- <router-link to="/ourservices" class="navbar-item">
+        </div>
+        <div class="navbar-item">
+ <router-link to="/ourservices" class="has-text-white has-text-weight-bold">
  Our Services
           </router-link> 
-           <router-link to="/contactus" class="navbar-item">
+        </div>
+        <div class="navbar-item">
+      <div class="">
+       <a class="navbar-brand" href="/">
+      <img src="../../assets/phoenix.png" class="">
+    </a>
+      </div>
+      </div>
+    <div class="navbar-item">
+           <router-link to="/contactus" class="has-text-white has-text-weight-bold">
 Contact
           </router-link> 
-            <router-link to="/career" class="navbar-item">
+    </div>
+    <div class="navbar-item">
+            <router-link to="/career" class="has-text-white has-text-weight-bold">
 Career
           </router-link> 
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
+    </div>
+      <div class="navbar-item is-hoverable">
+        <a class="navbar-link has-text-white has-text-weight-bold">
           More
         </a>
 
@@ -55,7 +70,7 @@ Career
       </div>
     </div>
 
-    <div class="navbar-end">
+    <!-- <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
           <a class="button is-primary">
@@ -66,7 +81,7 @@ Career
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </nav>
   </div>  
