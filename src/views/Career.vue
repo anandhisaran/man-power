@@ -1,8 +1,8 @@
 <template>
  <section class="hero is-fullheight is-default is-bold">
  <layout-header></layout-header>
-  <div class="about">
-    <p>This is an about page</p>
+  <div class="career">
+    <p>This is an career page</p>
   </div>
     <layout-footer></layout-footer>
  </section>
