@@ -3,6 +3,12 @@
  <layout-header></layout-header>
   <div class="career">
     <p>This is an career page</p>
+    <p>
+      card  hover-border-outer hover-border - pedning
+form desing in contact page - peding
+responsive in all pages - peding
+
+    </p>
   </div>
     <layout-footer></layout-footer>
  </section>

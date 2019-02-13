@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="tabs is-centered">
                     <ul>
-                        <li><a>CopyRights @ 2019 systimaNX</a></li>
+                        <li><a>&copy; 2019 Designed By SystimaNX</a></li>
                     </ul>
                 </div>
             </div>

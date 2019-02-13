@@ -5,45 +5,55 @@
       
         <!-- <div class="hero-body"> -->
         <section class="hero">
-        <figure class="image">
-           
-            <img src="../assets/banner3.jpg" class="logo_size">
+        <figure class="image">           
+            <img src="../assets/banner1.jpg" class="logo_size">
         </figure>
     </section>
-            <div class="container has-text-centered">
+            <div class=" has-text-centered about_block">
+              <div class="container">
                 <div class="columns is-vcentered">
                     <div class="column is-5">
-                        <figure class="image is-4by3">
+                      <div class="hom_block_one_section">
+                        <figure class="image">
                             <img src="../assets/man.png" alt="Description">
                         </figure>
+                      </div>
                     </div>
-                    <div class="column is-6 is-offset-1">
-                        <div class="home_block_one_content">
+                    <div class="column is-7">
+                        <div class="home_block_one_content has-text-left">
+                          <h6 class="text_line_side">OUR SPECIALIZATION</h6>
                         <h1 class="title is-3">
-                      WELCOME TO OUR COMPANY
+                     ABOUT OUR COMPANY
                         </h1>
-                        </div>
-                        <p class="is-size-6 is-4">
+                        <h4 class="is-size-5">
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,       
+                        </h4>
+                         <p class="has-text-grey">
                       Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                        </p>
-                        <br>
-                        <p class="has-text-centered">
-                            <a class="button is-medium is-info is-outlined">
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                       
+                        </p>  
+                        <figure>
+                        <img src="../assets/images/sign.jpg" alt=""> 
+                        </figure>
+                            <a class="button is-info is-outlined is-rounded">
                 Learn more
-              </a>
-                        </p>
+              </a>                         
+                        </div>            
                     </div>
                 </div>
+                </div>
                   </div>
-                  <!-- second block start -->         
+
+                                 <!-- service block start -->         
   <section class="section has-background-light">
         <div class="container has-text-centered home_block_two_content">
             <div class="columns is-centered">
             <div class="column is-6">
-            <h1 class="title is-3">WHY CHOOSE US?</h1>
+            <h1 class="title is-3">Our services</h1>
             <p class="is-size-6">
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam 
-est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non libero consectetur.
+Nam et suscipit dui. Maecenas velit quam, mollis id erat eget, scelerisque elementum odio. 
            </p>
         </div>
         </div>
@@ -51,13 +61,16 @@ est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
         <div class="columns">
             <!-- card one start -->
     <div class="column">
-<div class="card">
+<div class="card hover-border-outer hover-border">
     <div class="card-content">
       <div class="content">        
 <div class="home_block_item">
-    <i class="fas fa-leaf"></i> 
-          <h4>We deliver quality</h4>
-          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni </p>
+ <img src="../assets/images/car.png">
+          <h6>Automotive</h6>
+          <p>
+         Maecenas velit quam, mollis id erat eget.
+          </p>
+          <a href="/" class="button is-info is-outlined is-rounded">Read More</a>
         </div>
       </div>
     </div>
@@ -66,14 +79,17 @@ est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
   <!-- card one end -->
    <!-- card two start -->
     <div class="column">
-<div class="card">
+<div class="card hover-border-outer hover-border">
     <div class="card-content">
       <div class="content">        
 <div class="home_block_item">
-    <i class="fas fa-leaf"></i> 
-          <h4>We deliver two</h4>
-          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni </p>
-        </div>
+ <img src="../assets/images/car.png">
+           <h6>Banking & Financial institution</h6>
+          <p>
+         Maecenas velit quam, mollis id erat eget.
+          </p>
+          <a href="/" class="button is-info is-outlined is-rounded">Read More</a>
+          </div>
       </div>
     </div>
   </div>
@@ -81,14 +97,17 @@ est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
   <!-- card two end -->
    <!-- card three start -->
     <div class="column">
-<div class="card">
+<div class="card hover-border-outer hover-border">
     <div class="card-content">
       <div class="content">        
 <div class="home_block_item">
-    <i class="fas fa-leaf"></i> 
-          <h4>We deliver three</h4>
-          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni </p>
-        </div>
+ <img src="../assets/images/car.png">
+          <h6>Beauty and wellness</h6>
+          <p>
+         Maecenas velit quam, mollis id erat eget.
+          </p>
+          <a href="/" class="button is-info is-outlined is-rounded">Read More</a>
+         </div>
       </div>
     </div>
   </div>
@@ -96,27 +115,172 @@ est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
   <!-- card three end -->
    <!-- card four start -->
     <div class="column">
-<div class="card">
+<div class="card hover-border-outer hover-border">
     <div class="card-content">
       <div class="content">        
 <div class="home_block_item">
-    <i class="fas fa-leaf"></i> 
-          <h4>We deliver four</h4>
-          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni </p>
-        </div>
+ <img src="../assets/images/car.png">
+          <h6>Food and Food Processing</h6>
+           <p>
+         Maecenas velit quam, mollis id erat eget.
+          </p>
+          <a href="/" class="button is-info is-outlined is-rounded">Read More</a>
+          </div>
       </div>
     </div>
   </div>
 </div>
   <!-- card four end -->
-        </div>
+     <!-- card four start -->
+    <div class="column">
+<div class="card hover-border-outer hover-border">
+    <div class="card-content">
+      <div class="content">        
+<div class="home_block_item">
+ <img src="../assets/images/car.png">
+          <h6>IT & ITES </h6>
+          <p>
+         Maecenas velit quam, mollis id erat eget.
+          </p>
+          <a href="/" class="button is-info is-outlined is-rounded">Read More</a>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+  <!-- card four end -->
+    <div class="columns">
+     <!-- card four start -->
+    <div class="column">
+<div class="card hover-border-outer hover-border">
+    <div class="card-content">
+      <div class="content">        
+<div class="home_block_item">
+ <img src="../assets/images/car.png">
+           <h6>Jewellery</h6>
+          <p>
+         Maecenas velit quam, mollis id erat eget.
+          </p>
+          <a href="/" class="button is-info is-outlined is-rounded">Read More</a>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- card four end -->
+     <!-- card four start -->
+    <div class="column">
+<div class="card hover-border-outer hover-border">
+    <div class="card-content">
+      <div class="content">        
+<div class="home_block_item">
+ <img src="../assets/images/car.png">
+          <h6>Manufacturing</h6>
+         <p>
+         Maecenas velit quam, mollis id erat eget.
+          </p>
+          <a href="/" class="button is-info is-outlined is-rounded">Read More</a>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- card four end -->
+     <!-- card four start -->
+    <div class="column">
+<div class="card hover-border-outer hover-border">
+    <div class="card-content">
+      <div class="content">        
+<div class="home_block_item">
+ <img src="../assets/images/car.png">
+          <h6>NGO</h6>
+           <p>
+         Maecenas velit quam, mollis id erat eget.
+          </p>
+          <a href="/" class="button is-info is-outlined is-rounded">Read More</a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- card four end -->
+     <!-- card four start -->
+    <div class="column">
+<div class="card hover-border-outer hover-border">
+    <div class="card-content">
+      <div class="content">        
+<div class="home_block_item">
+  <img src="../assets/images/car.png">
+          <h6>Public sector</h6>
+            <p>
+         Maecenas velit quam, mollis id erat eget.
+          </p>
+          <a href="/" class="button is-info is-outlined is-rounded">Read More</a>
+           </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- card four end -->
+     <!-- card four start -->
+    <div class="column">
+<div class="card hover-border-outer hover-border">
+    <div class="card-content">
+      <div class="content">        
+<div class="home_block_item">
+   <img src="../assets/images/car.png">
+           <h6>Transport and Logistics</h6>
+          <p>
+         Maecenas velit quam, mollis id erat eget.
+          </p>
+          <a href="/" class="button is-info is-outlined is-rounded">Read More</a>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- card four end -->
+  </div>
         <!-- card end -->
         </div>
   </section>
-
-            <!-- second block end -->
-          
-         
+            <!-- service block end -->
+         <!-- third block start -->
+          <section class="section">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column">
+      <div class="home_block_one_content has-text-left">
+        <h6 class="text_line_side">OUR SPECIALIZATION</h6>
+        <h1 class="title is-3">
+                   BUILDING YOUR VISIONS. <br/>CREATING REALITY.
+                        </h1>
+                        <h4 class="is-size-5">
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,       
+                        </h4><p class="has-text-grey">
+                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                       
+                        </p>                        
+           <a href="/" class="button is-info is-outlined is-rounded">Read More</a>
+              </div>
+        </div>
+        <div class="column">
+    <div class="video-section-outer">
+    <div class="video-section">
+    <img src="../assets/images/pic1.jpg" alt="">
+    <a href="https://player.vimeo.com/video/34741214?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0" class="mfp-video play-now">
+    <i class="icon fas fa-play-circle"></i>
+    <span class="ripple"></span>
+    </a>                                              
+    </div>
+    </div>
+        </div>
+    </div>
+    </div>
+  </section>
+         <!-- thrird block end -->
           
         <!-- </div> this is hero body -->
 
