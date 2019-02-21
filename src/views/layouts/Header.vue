@@ -1,7 +1,16 @@
 <template>
   <div class="hero-head">
-
-      <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+<div class="logo_section" id="logo_id">
+      <div class="level-item has-text-centered">
+       <a class="" href="/">
+      <img src="../../assets/phoenix.png" class="">
+    </a>
+      </div>
+      </div>
+      <!-- <nav class="navbar navbar is-transparent is-fixed-top" 
+      role="navigation" aria-label="main navigation"> -->
+  <nav id="nav" class="navbar is-transparent is-fixed-top" 
+  role="navigation" aria-label="main navigation">
      <!-- <div class=" is-mobile is-centered  is-narrow">
   <div class="columns">
     <div class="column"> 
@@ -46,16 +55,18 @@
       <img src="../../assets/phoenix.png" width="130" height="95">
     </a> -->
 
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+    <a role="button" class="navbar-burger burger" aria-label="menu" 
+    aria-expanded="false" data-target="navbarBasicExample"
+      @click="isOpen = !isOpen" v-bind:class="{'is-active': isOpen}">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
 
-  <div id="navbarBasicExample" class="navbar-menu">
+  <div id="navbarBasicExample" class="navbar-menu" v-bind:class="{'is-active': isOpen}">
     <div class="navbar-start">
-      <div class="navbar-item">
+      <div class="navbar-item" style="margin-left: auto;">
         <router-link to="/" class="has-text-white">
         Home
         </router-link>
@@ -70,13 +81,8 @@
  Our Services
           </router-link> 
         </div>
-        <div class="navbar-item">
-      <div class="">
-       <a class="navbar-brand" href="/">
-      <img src="../../assets/phoenix.png" class="">
-    </a>
-      </div>
-      </div>
+    </div>
+     <div class="navbar-end">
     <div class="navbar-item">
            <router-link to="/contactus" class="has-text-white">
 Contact
@@ -87,7 +93,7 @@ Contact
 Career
           </router-link> 
     </div>
-      <div class="navbar-item is-hoverable">
+      <div class="navbar-item is-hoverable" style="margin-right: auto;">
         <a class="navbar-link has-text-white">
           More
         </a>
@@ -126,3 +132,38 @@ Career
 </nav>
   </div>  
 </template>
+<script>
+export default {
+ data: function() {
+        return {
+            isOpen: false,
+            overlay: false
+        }
+    },
+ mounted() {
+      this.$nextTick(function(){
+        window.addEventListener("scroll", function(){
+          var navbar = document.getElementById("nav")
+           var logo = document.getElementById("logo_id")
+          var nav_classes = navbar.classList
+          var logo_classes = logo.classList
+          if(document.documentElement.scrollTop >= 150) {
+            if (nav_classes.contains("shrink") === false && logo_classes.contains("shrink_logo") === false) {
+              nav_classes.toggle("shrink");
+              logo_classes.toggle("shrink_logo");
+            }
+          }
+          else {
+            if (nav_classes.contains("shrink") === true && logo_classes.contains("shrink_logo") === true ) {
+              nav_classes.toggle("shrink");
+                     logo_classes.toggle("shrink_logo");
+            }
+          }
+        })
+      })
+    },
+}
+  
+
+</script>
+

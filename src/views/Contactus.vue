@@ -53,10 +53,25 @@
       <div class="column is-4 is-offset-1">
         <div class="contact_info">
           <h1 class="has-text-left is-size-3">CONTACT INFO</h1>
-          <div class="has-background-black">
-           <p><i class="fas fa-phone-volume has-text-white"></i> Phone: 0987654321</p>
-           <p><i class="far fa-envelope-open has-text-white"></i> Email: admin@gmail.com</p>
-          <p><i class="far fa-address-card has-text-white"></i>Address: </p>
+          <div class="has-background-black contact_list">
+           <p class="has-text-left email">             
+             <span class="has-text-white">
+           admin@gmail.com
+             </span>
+             </p>
+           <p class="has-text-left phone">            
+            <span class="has-text-white">
+           <i class="fas fa-phone-volume"></i>  45645645645645 
+              </span>              
+             </p>
+          <p class="has-text-left address">
+              <span class="has-text-white">
+         <span>   #75, PT Rajan Rd </span>
+   <span>Meenakshi Plaza, B.B Kulam,   </span>
+   <span> Madurai- 625002 </span>
+   <span> Tamil Nadu, India </span>
+              </span>
+             </p>
           </div>
         </div>
       </div>
