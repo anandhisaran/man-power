@@ -88,12 +88,12 @@
 Contact
           </router-link> 
     </div>
-    <div class="navbar-item">
+    <div class="navbar-item" style="margin-right: auto;">
             <router-link to="/career" class="has-text-white">
 Career
           </router-link> 
     </div>
-      <div class="navbar-item is-hoverable" style="margin-right: auto;">
+      <!-- <div class="navbar-item is-hoverable" style="margin-right: auto;">
         <a class="navbar-link has-text-white">
           More
         </a>
@@ -113,7 +113,7 @@ Career
             Report an issue
           </a>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <!-- <div class="navbar-end">

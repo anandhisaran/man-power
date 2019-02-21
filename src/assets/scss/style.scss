@@ -9,7 +9,7 @@
 //   flex: 1;
 // }
 /* varilabel */
-$yellowcolor: #ecb60e;
+$yellowcolor: #f69b04;
 $fontfamily: 'Oswald', sans-serif !important;
 $fontfamily_p: 'Poppins', sans-serif  !important;
 /* body */ 
@@ -20,6 +20,11 @@ body
 p 
 {
   font-family: $fontfamily_p;
+}
+.button.is-warning:active, .button.is-warning.is-active {
+  background-color: $yellowcolor !important;
+  border-color: transparent;
+  color: #000;
 }
 /* common start */
 
@@ -45,8 +50,12 @@ p
 /* common end */
 /* footer */
 .footer {
-    background-color: #fafafa;
-    padding: 0 !important;
+    background-color: #fafafa !important;
+    padding: 1.4rem 0rem 1rem !important;
+}
+.footer p a
+{
+  color: #000 !important;
 }
 /* logo */ 
 // .logo_size 
@@ -122,19 +131,23 @@ header.small li {
 }
 nav.shrink{
   padding: 0.3rem;
-  background: #ecb60e !important;
+  background: $yellowcolor !important;
 }
 .shrink #navbarBasicExample .navbar-start 
 {
-  background-color: #ecb60e;
+  background-color: $yellowcolor;
 }
 .shrink #navbarBasicExample .navbar-end 
 {
-  background-color: #ecb60e;
+  background-color: $yellowcolor;
 }
 #nav 
 {
   padding: 0px !important;
+}
+.shrink #navbarBasicExample .navbar-item a {
+  font-weight: bold;
+  color: #2c3e50 !important;
 }
 // .navbar-start 
 // {
@@ -158,7 +171,7 @@ nav.shrink{
 .shrink_logo.logo_section:after
 {
   content:'';
-  background-color: #ecb60e;
+  background-color: $yellowcolor;
   border-radius: 50%;
   width: 30%;
   height: 97%;
@@ -611,3 +624,11 @@ margin-right: 15px;
     margin-top: 12px;
 }
 /* services end */
+/* career start */
+.career p
+{
+  font-family:  $fontfamily_p ;
+  font-size: 14px;
+  color: #000;
+}
+/* career end */
