@@ -1,6 +1,7 @@
 <template>
   <div class="hero-head">
-<div class="logo_section" id="logo_id">
+     <div :class="{ 'overlay': isOpen}" @click="isOpen= !isOpen"></div>
+<div class="" id="logo_id">
       <div class="level-item has-text-centered">
        <a class="" href="/">
       <img src="../../assets/phoenix.png" class="">
@@ -88,9 +89,14 @@
 Contact
           </router-link> 
     </div>
-    <div class="navbar-item" style="margin-right: auto;">
+    <div class="navbar-item">
             <router-link to="/career" class="has-text-white">
 Career
+          </router-link> 
+    </div>
+    <div class="navbar-item" style="margin-right: auto;">
+            <router-link to="/request" class="has-text-white">
+Request
           </router-link> 
     </div>
       <!-- <div class="navbar-item is-hoverable" style="margin-right: auto;">
@@ -132,6 +138,28 @@ Career
 </nav>
   </div>  
 </template>
+<style scoped>
+
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  /* Stay in place */
+  z-index: 999;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  /* Black fallback color */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Black w/opacity */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+</style>
+
 <script>
 export default {
  data: function() {

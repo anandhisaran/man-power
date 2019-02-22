@@ -61,7 +61,7 @@
       <i class="fas fa-user"></i>
     </span>
   </div>
-  <p class="help is-danger has-text-left">This username is available</p>
+  <!-- <p class="help is-danger has-text-left">This username is available</p> -->
 </div>
 
 <div class="field">
@@ -72,7 +72,7 @@
       <i class="fas fa-envelope"></i>
     </span>
   </div>
-  <p class="help is-danger has-text-left">This email is available</p>
+  <!-- <p class="help is-danger has-text-left">This email is available</p> -->
 </div>
 
 <div class="field">
@@ -83,42 +83,29 @@
       <i class="fas fa-mobile"></i>
     </span>
   </div>
-  <p class="help is-danger has-text-left">This Mobile is available</p>
+  <!-- <p class="help is-danger has-text-left">This Mobile is available</p> -->
 </div>
 
 
 <div class="field">
-  <label class="label has-text-left">Experience</label>
-  <div class="control">
-    <div class="select">
-      <select>
-        <option>-- Select --</option>
-        <option>1</option>
-         <option>2</option>
-          <option>4</option>
-      </select>
-    </div>
+  <label class="label has-text-left">Experience in year</label>
+ <div class="control has-icons-left has-icons-right">
+    <input class="input is-dark" type="text" placeholder="Experience in year">
+    <span class="icon is-small is-left">
+      <i class="fas fa-mobile"></i>
+    </span>
   </div>
+  <!-- <p class="help is-danger has-text-left">This Experience is available</p> -->
 </div>
 
 
 <div class="field">
     <label class="label has-text-left">Salary per annum</label>
-  <div class="control">
-    <label class="radio">
-      <input type="radio" name="salary">
-      20 - 30
-    </label>
-    <br/>
-    <label class="radio">
-      <input type="radio" name="salary">
-      30 - 40
-    </label>
-    <br/>
-     <label class="radio">
-      <input type="radio" name="salary">
-      40 - 50
-    </label>
+  <div class="control has-icons-left has-icons-right">
+    <input class="input is-dark" type="text" placeholder="alary per annum">
+    <span class="icon is-small is-left">
+      <i class="fas fa-mobile"></i>
+    </span>
   </div>
 </div>
 
@@ -148,7 +135,7 @@
   <div class="control">
     <label class="checkbox">
       <input type="checkbox">
-      I agree to the <a href="#">terms and conditions</a>
+      I agree to the <a href="/terms" class="has-text-dark">terms and conditions</a>
     </label>
   </div>
 </div>

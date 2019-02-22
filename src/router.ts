@@ -38,6 +38,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/Career.vue')
     },
     {
+      path: '/request',
+      name: 'request',
+      component: () => import(/* webpackChunkName: "about" */ './views/Request.vue')
+    },
+    {
       path: '/privacy',
       name: 'privacy',
       component: () => import(/* webpackChunkName: "about" */ './views/Privacy.vue')
