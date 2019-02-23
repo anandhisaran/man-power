@@ -133,13 +133,6 @@ nav.shrink{
 //   // width: 12%;
 //   // margin: 0 auto;
 // }
-#logo_id .level-item a
-{
-position: absolute;
-z-index: 2;
-top: 0px;
-width: 124px;
-}
 #logo_id img .level-item a  img
 {
   width: 36%;
@@ -151,8 +144,7 @@ width: 124px;
   z-index: 1111;
   right: 0px;
   left: 0;
-  // width: 28%;
-  width: 85%;
+  width: 28%;
   margin: 0 auto;
   background-color: #fff;
   border-radius: 85px;

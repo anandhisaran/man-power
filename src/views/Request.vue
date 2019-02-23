@@ -121,6 +121,7 @@
     </label>
   </div>
 </div>   
+  <button type="submit" class="button is-info is-outlined is-rounded">Submit</button>
       </div>
       </div>
 </div>
@@ -158,4 +159,17 @@ export default {
 
 }
 </script>
+<style>
+
+.button.is-info.is-outlined:hover {
+    background-color: #f69b04 !important;
+    border-color: #f69b04 !important;
+    color: #fff !important;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+</style>
+
 
