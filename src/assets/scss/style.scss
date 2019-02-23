@@ -720,6 +720,7 @@ border-bottom-left-radius: 0;
 border-top-left-radius: 0;
 }
 /* quantity end */ 
+/* mobile start */
 @media(max-width: 767px) and (min-width:320px)
 {
   #logo_id {
@@ -793,4 +794,36 @@ nav.shrink {
   height: 100vh;
   // max-height: calc(103vh - 3.25rem);
 }
+}
+/* mobile end */
+@media(max-width: 991px) and (min-width:768px)
+{
+  #logo_id 
+  {
+    z-index: 99999 !important;
+  }
+  .shrink #navbarBasicExample .navbar-item a {
+    color: #2c3e50 !important;
+}
+  #nav a {
+    color: #2c3e50 !important;
+    background-color: #fff;
+}
+  .navbar.is-fixed-bottom, .navbar.is-fixed-top {
+    z-index: 11111 !important;
+}
+.navbar-item
+{
+  text-align: left;
+}
+.navbar-start {
+  width: 100%;
+}
+  #navbarBasicExample 
+  {
+    height: 100vh;
+    width: 20%;
+    float: right;
+    // max-height: calc(103vh - 3.25rem);
+  }
 }
