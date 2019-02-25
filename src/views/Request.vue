@@ -131,7 +131,7 @@
             </div>
           </div>
           <!-- submit btn -->
-          <div class="field">
+          <div class="field"> 
                 <div class="control">
                   <label class="checkbox">
                     <input type="checkbox">
